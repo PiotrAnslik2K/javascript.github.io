@@ -5,21 +5,21 @@
 	<title> zad 74 </title>
 		<script language="JavaScript">
 			
-			var l1_ban=prompt("podaj pierwszą liczbę z przedziału <20,60>:","");
-			var l2_ban=prompt("podaj drugą liczbę z przedziału <20,60>","");
-			var pocz_ban=prompt("podaj wartość początkową wielkości tekstu (px):","");
-			var tekst_ban=prompt("podaj dowolny tekst:","");
+			var l1_ans=prompt("podaj pierwszą liczbę z przedziału <20,60>:","");
+			var l2_ans=prompt("podaj drugą liczbę z przedziału <20,60>","");
+			var pocz_ans=prompt("podaj wartość początkową wielkości tekstu (px):","");
+			var tekst_ans=prompt("podaj dowolny tekst:","");
 			
-			if((l1_ban>=20 && l1_ban<=60) && (l2_ban>=20 && l2_ban<=60))
+			if((l1_ans>=20 && l1_ans<=60) && (l2_ans>=20 && l2_ans<=60))
 			{
 			
-			for ( var i=pocz_ban ; i<=l1_ban ; i++ )
-			{document.write("<p style=\"font-size:"+i+"px; color: black;\"><br>"+tekst_ban+"<br></p>");}
+			for ( var i=pocz_ans; i<=l1_ans ; i++ )
+			{document.write("<p style=\"font-size:"+i+"px; color: black;\"><br>"+tekst_ans+"<br></p>");}
 			
 			}
 			else
 			{
-			document.write("złe dane");
+			document.write("Złe dane");
 			}
 		</script>
 	</head>
