@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+	<title> zad 74 </title>
+		<script language="JavaScript">
+			
+			var l1_ban=prompt("podaj pierwszą liczbę z przedziału <20,60>:","");
+			var l2_ban=prompt("podaj drugą liczbę z przedziału <20,60>","");
+			var pocz_ban=prompt("podaj wartość początkową wielkości tekstu (px):","");
+			var tekst_ban=prompt("podaj dowolny tekst:","");
+			
+			if((l1_ban>=20 && l1_ban<=60) && (l2_ban>=20 && l2_ban<=60))
+			{
+			
+			for ( var i=pocz_ban ; i<=l1_ban ; i++ )
+			{document.write("<p style=\"font-size:"+i+"px; color: black;\"><br>"+tekst_ban+"<br></p>");}
+			
+			}
+			else
+			{
+			document.write("złe dane");
+			}
+		</script>
+	</head>
+		<body>
+		</body>
+</html>
